@@ -8,7 +8,6 @@ const connection = new Sequelize({
   username: config.get("DBconfig.username"),
   password: config.get("DBconfig.password"),
   database: config.get("DBconfig.database"),
-  logging: true,
   models: [User],
 });
 
