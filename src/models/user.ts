@@ -5,6 +5,7 @@ import {
   CreatedAt,
   UpdatedAt,
   DataType,
+  HasMany,
 } from "sequelize-typescript";
 
 @Table({
